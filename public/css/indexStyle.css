@@ -1,0 +1,40 @@
+form {
+    text-align: center;
+    margin-top: auto;
+    background: rgb(178, 189, 252);
+    padding: 5%;
+  }
+  button {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 50px;
+    width: 80%;
+  }
+  body,html {
+  height:100%; 
+}
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  label, input{
+    font-size: 30px;
+  }
+  input {
+    padding-left: 5%;
+    width: 50%;
+    margin-right: 7%;
+  }
+  fieldset {
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  label {
+    align-self: flex-start;
+  }
+  html {
+    background: rgb(230, 177, 146);
+  }
