@@ -1,0 +1,36 @@
+html {
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#gameScreen{
+    width: 40%;
+    height: 60vh;
+}
+
+#gameScreen > section {
+    border: black solid 1px;
+    width: 31.3%;
+}
+
+h2 {
+    color: red;
+}
+
+/* section {
+    border: black solid 2px;
+} */
+
+#gameScreen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
